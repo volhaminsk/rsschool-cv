@@ -12,11 +12,11 @@
 ----------
 
 
-  ## **about myself**
+## **about myself**
 
   *I'm extremely curious about acquiring knowledge and learning new technologies. In addition I'm an excellent team worker.*
 
-  ## **skills**
+## **skills**
 
   HTML Basics
 
@@ -25,11 +25,11 @@
   Git/GitHub
 
 
-  ## **education**
+## **education**
 
   CS50/javarush video course
 
-  ## **languages**
+## **languages**
 
   English: B1
 
