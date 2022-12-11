@@ -24,6 +24,15 @@
 
   Git/GitHub
 
+## **code example**
+ ```
+ function sum(x,y) {
+    return x+y;
+ }
+ let result = sum(2,5);
+ alert(result);
+
+ ```
 
 ## **education**
 
