@@ -2,11 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
 </head>
 <body>
-    
+    <header>
+        <img src="/assets/img/foto.jpg" alt="foto">
+        <h1>Olga Fedorinchik</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">my contacts</a></li>
+                <li class="nav-item"><a href="#aboutMyself" class="nav-link">about myself</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                <li class="nav-item"><a href="#codeExample" class="nav-link">code example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="contacts">
+            <h2 class="section-title">contacts</h2>
+               <ul>
+                  <li>Location: Minsk, Belarus</li>
+                  <li>GitHub: volhaminsk</li>
+                  <li>Telephone number: +375259253200 viber, whatsapp</li>
+                  <li>E-mail: volhaminsk1991@gmail.com</li>
+               </ul>
+        </section>
+        <section class="section" id="aboutMyself">
+            <h2 class="section-title">about myself</h2>
+              <p>I'm extremely curious about acquiring knowledge and learning new technologies. In addition I'm an excellent team worker.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">skills</h2>
+            <ul>
+                <li>HTML Basiks</li>
+                <li>CSS Basics</li>
+                <li>Git/GitHub</li>
+            </ul>
+        </section>
+        <section class="section" id="codeExample">
+            <h2 class="section-title">code example</h2>
+            <p>
+                <pre>
+                    function sum(x,y) {
+                        return x+y;
+                     }
+                     let result = sum(2,5);
+                     alert(result);  
+                </pre>
+            </p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">education</h2>
+            <p>CS50/javarush video course</p>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="section-title">languages</h2>
+              <ul>
+                <li>English: B1</li>
+                <li>German: A2+</li>
+                <li>Russian: native</li>
+              </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/volhaminsk">volhaminsk</a></li>
+            <li>2022</li>
+            <li><img src="/assets/img/rslogo" alt="rslogo"></li>
+            <li><a href="https://rs.school/js/">https://rs.school/js/</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
